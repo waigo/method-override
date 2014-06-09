@@ -31,18 +31,24 @@ module.exports = {
 
   ...
 }
+```
 
 ...or as common middleware for all routes:
 
 ```javascript
 // <app folder>/config/base.js
 
-config.middleware.order = [
-  'errorHandler',
-  'staticResources',
-  'methodOverride', 
+module.exports = function(config) {
   ...
-];
+
+  config.middleware.order = [
+    'errorHandler',
+    'staticResources',
+    'methodOverride', 
+    ...
+  ];  
+}
+```
 
 
 ## License
