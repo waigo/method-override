@@ -1,7 +1,7 @@
 {
-  "name": "waigo-method-override",
+  "name": "waigo-plugin-method-override",
   "version": "1.0.0",
-  "description": "HTTP request method overriding for Waigo",
+  "description": "HTTP request method overriding for Waigo (plugin)",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test node --harmony `which grunt`"

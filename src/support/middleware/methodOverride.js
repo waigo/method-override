@@ -1,7 +1,7 @@
 "use strict";
 
 
-var debug = require('debug')('waigo-method-override');
+var debug = require('debug')('waigo-plugin-method-override');
 
 
 /**

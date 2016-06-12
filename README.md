@@ -1,3 +1,5 @@
+# waigo-plugin-method-override
+
 [![Build Status](https://secure.travis-ci.org/waigo/method-override.png)](http://travis-ci.org/waigo/method-override)
 
 This [waigo](http://waigojs.com) plugin provides:
@@ -14,7 +16,7 @@ This allows you to, for example, call `DELETE` routes using a HTTP `GET` request
 ## Installation
 
 ```bash
-$ npm install waigo-method-override
+$ npm install waigo-plugin-method-override
 ```
 
 ## Example
