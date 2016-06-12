@@ -17,14 +17,14 @@ module.exports = (grunt) ->
           "<%= config.src %>/**/*.js"
         ]
 
-    mochaTest:
-      test:
-        options:
-          ui: 'exports'
-          reporter: 'spec'
-        src: [
-          '<%= config.test %>/integration.js'
-        ]
+    # mochaTest:
+    #   test:
+    #     options:
+    #       ui: 'exports'
+    #       reporter: 'spec'
+    #     src: [
+    #       '<%= config.test %>/integration.js'
+    #     ]
 
-  grunt.registerTask "default", ["jshint", "mochaTest"]
+  grunt.registerTask "default", ["jshint"]
   

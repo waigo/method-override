@@ -4,12 +4,7 @@ var co = require('co'),
   shell = require('shelljs'),
   waigo = require('waigo');
 
-var _utils = require('waigo-test-utils')(module),
-  test = _utils.test,
-  utils = _utils.utils,
-  assert = utils.assert,
-  expect = utils.expect,
-  should = utils.should;
+var test = require('waigo-test-utils').mocha(module);
 
 
 test['method override'] = {

@@ -1,7 +1,5 @@
 # waigo-plugin-method-override
 
-[![Build Status](https://secure.travis-ci.org/waigo/method-override.png)](http://travis-ci.org/waigo/method-override)
-
 This [waigo](http://waigojs.com) plugin provides:
 
 **methodOverride**

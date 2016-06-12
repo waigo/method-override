@@ -1,10 +1,10 @@
 {
   "name": "waigo-plugin-method-override",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "HTTP request method overriding for Waigo (plugin)",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --harmony `which grunt`"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/waigo/method-override",
   "devDependencies": {
-    "load-grunt-tasks": "~0.4.0",
-    "grunt": "~0.4.4",
-    "grunt-mocha-test": "~0.10.0",
-    "supertest": "~0.10.0",
     "chai": "~1.9.1",
+    "co": "~3.0.5",
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-mocha-test": "~0.10.0",
+    "load-grunt-tasks": "~0.4.0",
     "matchdep": "~0.3.0",
     "shelljs": "~0.2.6",
-    "co": "~3.0.5",
-    "waigo-test-utils": "git://github.com/waigo/test-utils.git",
-    "waigo": "~1.4.0",
-    "grunt-contrib-jshint": "~0.10.0"
+    "supertest": "~0.10.0",
+    "waigo": "2.1.0-beta4",
+    "waigo-test-utils": "^2.5.0"
   },
   "dependencies": {
     "debug": "~0.8.1"
